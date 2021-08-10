@@ -5,20 +5,112 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  
 }
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: sans-serif;
+  background: linear-gradient(45deg, rgb(190, 190, 190), rgb(83, 81, 81));
 }
-
-/* container */
-
-/* image */
-
-/* form */
-
+section {
+  position: relative;
+  width: 700px;
+  /* height: 550px; */
+  display: flex;
+  box-shadow: 2px 3px 30px #000;
+}
+.img-container {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+.img-container img {
+  /* position: relative;
+  top: 0px;
+  left: 0; */
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  height: 100%;
+}
+.box-content {
+  width: 100%;
+  margin: 45px;
+}
+h2 {
+  color: rgb(109, 46, 4);
+  font-weight: 600;
+  font-size: 1.8rem;
+  position: relative;
+  margin-left: 40px;
+  bottom: 40px;
+  border-bottom: 3px solid rgb(109, 46, 4);
+  display: inline-block;
+  letter-spacing: 1px;
+  text-shadow: 2px 1px 3px gray;
+}
+input:focus {
+  outline: none;
+}
+.label {
+  font-size: 1.1em;
+  font-weight: 400;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+.inputbx {
+  margin-bottom: 20px;
+}
+.inputbx input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 3px 2px 10px rgb(114, 113, 113);
+}
+#btn {
+  font-size: 1em;
+  padding: 10px 20px;
+  position: relative;
+  top: 50px;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 4px 10px rgb(78, 72, 72);
+  font-weight: 600;
+}
+#btn:hover {
+  letter-spacing: 1px;
+  background: rgb(104, 52, 22);
+  color: #fff;
+}
+#tandc {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-top: 40px;
+  display: flex;
+}
+#tandcpara {
+  padding: 2px;
+  margin-left: 5px;
+  margin-top: -5px;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
 /* Media Queries */
